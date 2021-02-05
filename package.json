@@ -7,9 +7,10 @@
       "desarrollo": "concurrently \"npm run dev \" \"npm run watch \"",
       "dev": "nodemon ./index.js",
       "watch": "webpack --watch --mode development",
-      "start": "node ./index.js",
-      "build": "webpack"
-      
+      "heroku-prebuild": "npm install --dev",
+      "build": "webpack --mode production",
+      "start": "node ./index.js"
+  
     },
     "author": "Jorge VS",
     "license": "ISC",
