@@ -8,7 +8,6 @@
         "dev": "nodemon ./index.js",
         "watch": "webpack --watch --mode development",
         "heroku-prebuild": "npm install --dev",
-        "build": "webpack",
         "start": "node ./index.js"
     },
     "author": "Jorge VS",
