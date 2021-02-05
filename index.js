@@ -92,6 +92,6 @@ const host = process.env.HOST || "0.0.0.0";
 const port = process.env.PORT || 3000;
 
 app.listen(port, host, () => {
-    console.log('\"EL SERVIDOR ESTA FUNCIONANDO\"');
+    console.log('\"EL SERVIDOR ESTA LISTO\"');
 });
 
